@@ -1,0 +1,160 @@
+:root {
+    background-image: url('./image/wallpaper.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    font-size: 20px;
+    width: 1300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; 
+    padding: 0px 0 200px 0;   
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 20px 0 90px;
+    margin-top: 20px;
+    height: 800px;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: repeat(5, 0.5fr);
+    background-color: rgba(255, 255, 255, 0.90);
+    border: 2px #2383E2 solid;
+    border-radius: 40px;
+    margin: auto;
+    opacity: 0.95;
+    width: 600px;
+    height: 70px;
+    padding: 0 10px 0px 10px;
+    gap: 20px;
+    justify-items: center;
+    align-items: center; 
+    position: fixed;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar a:hover {
+    background: linear-gradient(176deg, #60B0FF 0%, rgba(120, 117, 255, 0.70) 100%);
+    height:46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 40px;
+    cursor: pointer;
+    width: 100px;
+    font-weight: bold;
+}
+
+.desc .desc-detail .name {
+    background-color: #FDE68A;
+    font-size: 42px;
+    font-weight: 700;
+    width: 547px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+
+.desc .desc-detail .study {
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-size: 35;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.desc .desc-detail .skills {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.desc .desc-detail .skills p{
+    margin: 0;
+    border: 1.5px #2383E2 solid;
+    padding: 8px;
+    border-radius: 40px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.header-main {
+    color: black;
+    text-align: center;
+}
+
+.organizations {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.orgs {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    font-weight: 400;
+    padding: 0 90px 0 90px;
+    }
+
+.orgs .org-image img {
+    width: 80px;
+}
+
+.orgs .org-detail {
+    width: 990px;
+}
+
+.orgs .org-detail .org-name {
+    margin: 0;
+    font-weight: bold;
+}
+
+.orgs .org-detail .roles {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.orgs .org-detail .roles .detail-role .role-date {
+    font-weight: normal;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.orgs .org-detail .roles .detail-role .role-date p {
+    margin: 0;
+}
+
+.orgs .org-detail .roles .detail-role ul {
+    margin: 0;
+}
+
