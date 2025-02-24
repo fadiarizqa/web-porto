@@ -1,5 +1,5 @@
 :root {
-    background-image: url('./image/wallpaper.png');
+    background-image: url('./assets/wallpaper.png');
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -103,45 +103,47 @@ body {
     font-weight: 600;
 }
 
-.header-main {
+.about-section .header-main {
     color: black;
     text-align: center;
+    margin: 0;
+    padding: 40px 0 40px 0;
 }
 
-.organizations {
+.about-section {
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
 
-.orgs {
+.container-list {
     display: flex;
     flex-direction: row;
     gap: 30px;
     font-weight: 400;
     padding: 0 90px 0 90px;
-    }
+}
 
-.orgs .org-image img {
+.container-list .container-image img {
     width: 80px;
 }
 
-.orgs .org-detail {
+.container-list .container-detail {
     width: 990px;
 }
 
-.orgs .org-detail .org-name {
+.container-list .container-detail .container-name {
     margin: 0;
     font-weight: bold;
 }
 
-.orgs .org-detail .roles {
+.container-list .container-detail .container-title {
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
 
-.orgs .org-detail .roles .detail-role .role-date {
+.container-list .container-detail .container-title .detail-title .title-date {
     font-weight: normal;
     font-size: 16px;
     display: flex;
@@ -150,11 +152,15 @@ body {
     align-items: flex-start;
 }
 
-.orgs .org-detail .roles .detail-role .role-date p {
+.container-list .container-detail .container-title .detail-title .title-date p {
     margin: 0;
 }
 
-.orgs .org-detail .roles .detail-role ul {
+.container-list .container-detail .container-title .detail-title ul {
     margin: 0;
+}
+
+.container-list .container-detail .container-title .detail-title p {
+    margin-top: 10px;
 }
 
