@@ -37,9 +37,9 @@ body {
     align-items: center;
     justify-content: space-around;
     padding: 0 20px 0 90px;
-    margin-top: 150px; /* Increased to account for fixed navbar */
+    margin-top: 150px; 
     min-height: 600px;
-    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    flex-wrap: wrap; 
 }
 
 .hero img {
@@ -64,7 +64,7 @@ body {
     position: fixed;
     font-weight: 600;
     margin-top: 40px;
-    z-index: 1000; /* Ensure navbar stays on top */
+    z-index: 1000; 
 }
 
 .navbar a {
@@ -111,12 +111,11 @@ body {
     display: flex;
     flex-direction: row;
     gap: 20px;
-    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    flex-wrap: wrap; 
 }
 
 .desc .desc-detail .skills p{
     margin: 0;
-    /* border: 1.5px solid rgb(120,117,255); */
     background: linear-gradient(176deg, #2383E2, #7875FF);
     box-shadow: 0 0 1px rgb(120,117,255);
     color: white;
@@ -146,7 +145,7 @@ body {
     font-weight: 400;
     padding: 0 5%;
     width: 90%;
-    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    flex-wrap: wrap; 
 }
 
 .container-list .container-image {
@@ -183,7 +182,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    flex-wrap: wrap; 
 }
 
 .container-list .container-detail .container-title .detail-title .title-date p {
@@ -204,7 +203,7 @@ body {
 
 .project-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
     gap: 20px;
     place-items: center;
     width: 90%;
@@ -377,6 +376,10 @@ body {
 }
 
 @media (max-width: 576px) {
+    body {
+        padding: 0 40px;
+    }
+
     .desc .desc-detail .name {
         font-size: 32px;
         padding: 15px 0;
